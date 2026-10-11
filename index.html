@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080914">
+  <meta name="description" content="Vibu's personal website — learning, creating, and growing.">
+  <title>Vibu | Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home"><span class="brand-mark">V</span> Vibu</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navLinks">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#goals">Goals</a>
+      <a href="#projects">Projects</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HEY THERE 👋</p>
+        <h1>I'm <span>Vibu</span></h1>
+        <p class="tagline">Dream <i>·</i> Learn <i>·</i> Build <i>·</i> Grow</p>
+        <p class="intro">A student with a curious mind and a growing interest in technology. This is my little corner of the internet where I can share my journey, goals, and projects.</p>
+        <div class="actions">
+          <a class="btn primary" href="#about">Explore my journey ↗</a>
+          <a class="btn secondary" href="#projects">See my projects ↓</a>
+        </div>
+        <p class="small-note">Learning every day. Building step by step.</p>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait-placeholder">
+          <div class="avatar-icon">V</div>
+          <p>Your photo goes here</p>
+          <span>Replace <code>profile.jpg</code> with your photo</span>
+        </div>
+        <div class="floating-note">Better days<br><b>ahead.</b> ✦</div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading"><p class="eyebrow">A LITTLE INTRODUCTION</p><h2>About <span>Me</span></h2></div>
+      <div class="about-grid">
+        <p class="body-copy">Hi, I'm Vibu. I'm currently on my learning journey and exploring what I can create with technology. I enjoy discovering new ideas, improving my skills, and working toward my future goals. As I learn, I'll add more projects and achievements here.</p>
+        <div class="info-card"><span class="icon">⌘</span><div><h3>Tech Explorer</h3><p>Learning about coding and digital tools.</p></div></div>
+        <div class="info-card"><span class="icon">✧</span><div><h3>Curious Learner</h3><p>Building knowledge one step at a time.</p></div></div>
+        <div class="info-card"><span class="icon">◎</span><div><h3>Future Focused</h3><p>Working toward a career I can be proud of.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="goals">
+      <div class="section-heading"><p class="eyebrow">MY NEXT STEPS</p><h2>Learning & <span>Goals</span></h2></div>
+      <div class="goal-grid">
+        <article class="goal-card"><span class="step">01</span><h3>Learn the basics</h3><p>Build strong foundations in school subjects and computing.</p></article>
+        <article class="goal-card"><span class="step">02</span><h3>Practice by doing</h3><p>Try small projects, learn from mistakes, and keep improving.</p></article>
+        <article class="goal-card"><span class="step">03</span><h3>Grow my portfolio</h3><p>Share finished projects and useful things I learn over time.</p></article>
+      </div>
+      <blockquote>“Small steps every day lead to big dreams.” <span>— Vibu's reminder</span></blockquote>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading"><p class="eyebrow">MADE OR IN PROGRESS</p><h2>My <span>Projects</span></h2><p class="muted">Add your real projects here as you build them.</p></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-art art-one">01 <span>CODE</span></div><div class="project-content"><h3>First Coding Project</h3><p>A place to showcase a small program or practice exercise.</p><span class="chip">Learning</span></div></article>
+        <article class="project-card"><div class="project-art art-two">02 <span>CREATE</span></div><div class="project-content"><h3>Creative Project</h3><p>Showcase a website, design, edit, or other creative experiment.</p><span class="chip">Creative</span></div></article>
+        <article class="project-card"><div class="project-art art-three">03 <span>GROW</span></div><div class="project-content"><h3>More Coming Soon</h3><p>This card can become your next finished project.</p><span class="chip">Coming soon</span></div></article>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div><div class="section-heading"><p class="eyebrow">SNAPSHOTS</p><h2>My <span>Gallery</span></h2></div><p class="body-copy">Add photos, favorite moments, or your own creations. Only use images you're comfortable sharing publicly.</p></div>
+      <div class="gallery-tiles"><div class="tile tile-a">Your moments</div><div class="tile tile-b">Your ideas</div><div class="tile tile-c">Your journey</div></div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading"><p class="eyebrow">SAY HELLO</p><h2>Get in <span>Touch</span></h2></div>
+      <p class="body-copy">Want to connect? Add a public professional profile or a contact method here when you're ready.</p>
+      <div class="actions"><a class="btn primary" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a class="btn secondary" href="#home">Back to top ↑</a></div>
+      <p class="privacy-note">Privacy tip: don't publish your home address, personal phone number, school timetable, passwords, or ID numbers.</p>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">V</span> Vibu</a><span>Keep going ✦</span><span>© <span id="year"></span> Vibu</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
